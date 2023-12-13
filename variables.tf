@@ -40,7 +40,7 @@ variable "db_username" {
 
 variable "db_password" {
   description = "Password for the RDS instance"
-  default     = "mydbinstancepassword"
+  default     = ""
 }
 
 variable "db_name" {
